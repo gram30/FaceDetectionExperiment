@@ -34,7 +34,7 @@ class FaceDetectionExperimentTests: XCTestCase {
             print(countFace(image: image, accuracy: accuracy, onlyPortrail: onlyPortrail))
         }
     }
-    
+
     func testExample() {
         print("portrait")
         print("\(Accurecy.high)")
